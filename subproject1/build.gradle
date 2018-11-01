@@ -6,9 +6,9 @@ apply plugin: 'java'
 sourceCompatibility = 1.8
 
 sourceSets {
-    badutil {
+    subutil {
         java {
-            srcDir("src/test/java/badutil")
+            srcDir("src/test/java/subutil")
         }
     }
 }
